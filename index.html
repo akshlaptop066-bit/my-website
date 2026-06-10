@@ -1,243 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="A responsive logistics company website inspired by modern cargo, rail, warehouse, and transportation brands."
-    />
-    <title>Hind Terminals Style Logistics Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="top-bar">
-      <div class="container top-bar-inner">
-        <div class="top-info">
-          <span>Location: Nationwide Presence</span>
-          <span>Phone: 1800 258 1114</span>
-        </div>
-        <div class="top-links">
-          <a href="#careers">Careers</a>
-          <a href="#media">Media</a>
-          <a href="#track">Track Shipment</a>
-          <a href="#" aria-label="Facebook">f</a>
-          <a href="#" aria-label="LinkedIn">in</a>
-          <a href="#" aria-label="YouTube">yt</a>
-        </div>
-      </div>
-    </div>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logistics Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="topbar">Nationwide Presence | 1800 258 1114</div>
+<nav>
+<div class="logo">LOGISTICS PRO</div>
+<ul>
+<li>Home</li><li>Services</li><li>Infrastructure</li><li>About Us</li><li>Contact</li>
+</ul>
+<button>Request Quote</button>
+</nav>
+</header>
 
-    <header class="site-header">
-      <div class="container nav-shell">
-        <a class="brand" href="#home" aria-label="Hind Terminals style home">
-          <span class="brand-symbol">
-            <i></i>
-            <i></i>
-          </span>
-          <span>
-            <strong>HIND</strong>
-            <strong>TERMINALS</strong>
-            <small>Trusted since 1988</small>
-          </span>
-        </a>
+<section class="hero">
+<div class="overlay">
+<h1>Delivering Value.<br>Powering Growth.</h1>
+<p>Leading integrated logistics and supply chain solutions provider.</p>
+<a href="#" class="btn">Our Services</a>
+</div>
+</section>
 
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-          <span class="sr-only">Toggle navigation</span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+<section class="stats">
+<div><h2>8+</h2><p>CFS Locations</p></div>
+<div><h2>5</h2><p>ICD Facilities</p></div>
+<div><h2>1M+</h2><p>Warehouse Capacity</p></div>
+<div><h2>20+</h2><p>Years Experience</p></div>
+</section>
 
-        <nav class="site-nav" id="site-nav">
-          <a class="active" href="#home">Home</a>
-          <a href="#services">Services</a>
-          <a href="#infrastructure">Infrastructure</a>
-          <a href="#about">About Us</a>
-          <a href="#investors">Investors</a>
-          <a href="#contact">Contact Us</a>
-        </nav>
+<section class="services">
+<h3>WHAT WE DO</h3>
+<h2>Our Services</h2>
+<div class="grid">
+<div class="card">Container Freight Stations</div>
+<div class="card">Rail Transportation</div>
+<div class="card">Warehousing Solutions</div>
+<div class="card">Transportation</div>
+<div class="card">Custom Clearance</div>
+<div class="card">E&M Services</div>
+</div>
+</section>
 
-        <a class="quote-button" href="#contact">Request a Quote <span>-></span></a>
-      </div>
-    </header>
-
-    <main id="home">
-      <section class="hero">
-        <div class="hero-slider-button left" aria-hidden="true">‹</div>
-        <div class="hero-slider-button right" aria-hidden="true">›</div>
-        <div class="container hero-content">
-          <h1>Delivering Value.<br />Powering Growth.</h1>
-          <p>
-            Hind Terminals is one of India's leading integrated logistics solution providers with
-            a legacy of trust and excellence.
-          </p>
-          <div class="hero-actions">
-            <a class="button red" href="#services">Our Services <span>-></span></a>
-            <a class="button outline" href="#track">Track Shipment <span class="box-icon">□</span></a>
-          </div>
-        </div>
-        <div class="slider-dots" aria-hidden="true">
-          <span class="active"></span>
-          <span></span>
-          <span></span>
-        </div>
-      </section>
-
-      <section class="container stats-panel" aria-label="Company highlights">
-        <article>
-          <span class="icon">▥</span>
-          <div>
-            <strong>8+</strong>
-            <p>CFS Locations<br />Pan India</p>
-          </div>
-        </article>
-        <article>
-          <span class="icon">▤</span>
-          <div>
-            <strong>5</strong>
-            <p>ICD Facilities<br />Strategically Located</p>
-          </div>
-        </article>
-        <article>
-          <span class="icon">⌂</span>
-          <div>
-            <strong>1M+</strong>
-            <p>Sq Ft Warehousing<br />Capacity</p>
-          </div>
-        </article>
-        <article>
-          <span class="icon">▣</span>
-          <div>
-            <strong>20+</strong>
-            <p>Years of Excellence<br />In Logistics</p>
-          </div>
-        </article>
-      </section>
-
-      <section class="section services-section" id="services">
-        <div class="section-heading">
-          <p class="eyebrow">What We Do</p>
-          <h2>Our Services</h2>
-        </div>
-        <div class="container service-grid">
-          <article class="service-card">
-            <span class="service-icon">▥</span>
-            <h3>Container Freight Stations</h3>
-            <p>State-of-the-art CFS facilities with modern equipment and expert handling.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">▤</span>
-            <h3>Rail Transportation</h3>
-            <p>Reliable rail connectivity ensuring cost-effective and efficient cargo movement.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">⌂</span>
-            <h3>Warehousing Solutions</h3>
-            <p>Spacious, secure, and well-managed warehousing facilities across major locations.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">▣</span>
-            <h3>Transportation</h3>
-            <p>End-to-end transportation solutions with a strong pan-India network.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">▧</span>
-            <h3>Customs Clearance</h3>
-            <p>Fast and hassle-free customs clearance with expert documentation support.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">⚙</span>
-            <h3>E&M Services</h3>
-            <p>Efficient equipment and maintenance services under one roof.</p>
-          </article>
-        </div>
-        <a class="view-services" href="#contact">View All Services <span>-></span></a>
-      </section>
-
-      <section class="container about-section" id="about">
-        <div class="about-image" aria-label="Containers being moved at a terminal"></div>
-        <div class="about-copy">
-          <p class="eyebrow">About Hind Terminals</p>
-          <h2>Integrated Logistics Solutions Tailored to Your Needs</h2>
-          <p>
-            We offer a comprehensive suite of logistics solutions including CFS, ICD,
-            warehousing, transportation, port services, and value-added services. With strong
-            infrastructure and a customer-centric approach, your cargo moves seamlessly across the
-            supply chain.
-          </p>
-          <a class="button navy" href="#infrastructure">Know More <span>-></span></a>
-        </div>
-      </section>
-
-      <section class="section infrastructure" id="infrastructure">
-        <div class="container infra-layout">
-          <div>
-            <p class="eyebrow">Infrastructure</p>
-            <h2>Built for reliable multimodal movement.</h2>
-          </div>
-          <div class="infra-list">
-            <article>
-              <strong>Modern terminals</strong>
-              <span>Strategically located hubs for smoother imports, exports, and domestic movement.</span>
-            </article>
-            <article>
-              <strong>Smart warehousing</strong>
-              <span>Inventory-ready storage with secure handling and operational visibility.</span>
-            </article>
-            <article>
-              <strong>Pan-India reach</strong>
-              <span>Road, rail, and port connectivity designed for dependable turnaround times.</span>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="container contact-section" id="contact">
-        <div>
-          <p class="eyebrow">Get Quote</p>
-          <h2>Move your cargo with confidence.</h2>
-          <p>
-            Replace this sample form with your real email or CRM form action before publishing.
-          </p>
-        </div>
-        <form class="contact-form" action="mailto:hello@example.com" method="post" enctype="text/plain">
-          <label>
-            Name
-            <input name="name" type="text" placeholder="Your name" required />
-          </label>
-          <label>
-            Email
-            <input name="email" type="email" placeholder="you@example.com" required />
-          </label>
-          <label>
-            Shipment Details
-            <textarea name="message" rows="4" placeholder="Origin, destination, cargo type"></textarea>
-          </label>
-          <button class="button red" type="submit">Submit Request <span>-></span></button>
-        </form>
-      </section>
-    </main>
-
-    <div class="quick-actions" aria-label="Quick contact actions">
-      <a class="quick red" href="#contact"><span>▤</span>Get Quote</a>
-      <a class="quick green" href="https://wa.me/18002581114"><span>☎</span>WhatsApp</a>
-      <a class="quick blue" href="tel:18002581114"><span>☎</span>Call Us</a>
-    </div>
-
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>&copy; <span data-year></span> Hind Terminals Style Website. All rights reserved.</p>
-        <a href="#home">Back to top</a>
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
+<footer>© 2026 Logistics Pro</footer>
+<script src="script.js"></script>
+</body>
 </html>
